@@ -74,7 +74,7 @@ h1{font-size:clamp(42px,6vw,68px);line-height:1.02;letter-spacing:-.065em;color:
 .cta .eyebrow{color:white}
 .footer{
   background:#ffffff;
-  color:var(--navy);
+  color:#ffffff;
   padding:28px 0;
 }.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
 .footer .logo-wrap{
