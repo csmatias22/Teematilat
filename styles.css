@@ -342,3 +342,72 @@ textarea{min-height:150px;resize:vertical}
     max-width:100%;
   }
 }
+
+.process{
+  position:relative;
+  overflow:hidden;
+  background:
+    linear-gradient(rgba(6,33,63,.88), rgba(6,33,63,.88)),
+    url("assets/halli-sisakuva-ai.png") center center/cover no-repeat;
+}
+
+.process:before{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,.12);
+  z-index:0;
+}
+
+.process .container{
+  position:relative;
+  z-index:1;
+}
+
+.process-grid{
+  gap:28px;
+}
+
+.step{
+  background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.14);
+  border-radius:16px;
+  padding:28px 20px;
+  backdrop-filter:blur(4px);
+  box-shadow:0 10px 30px rgba(0,0,0,.18);
+  transition:.25s ease;
+}
+
+.step:hover{
+  transform:translateY(-4px);
+  background:rgba(255,255,255,.12);
+}
+
+.step h3{
+  color:#ffffff;
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.step p{
+  color:rgba(255,255,255,.92);
+  line-height:1.6;
+  font-size:15px;
+}
+
+.step-number{
+  background:#ffffff;
+  color:#06213f;
+  width:44px;
+  height:44px;
+  font-size:16px;
+  margin-bottom:18px;
+}
+
+.process .section-title{
+  color:#ffffff;
+}
+
+.process .eyebrow{
+  color:#d8e5ff;
+}
