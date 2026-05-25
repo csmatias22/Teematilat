@@ -7,39 +7,63 @@
   <meta name="description" content="Teematilat Oy rakentaa laadukkaita ja toimivia toimitiloja yrityksille.">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 <header class="header">
   <div class="container nav">
     <a class="logo-wrap" href="index.html">
-<img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
-</a> 
+      <img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
+    </a>
+
     <button class="mobile-toggle" aria-label="Avaa valikko" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+
     <nav class="menu">
-      <a href="index.html" class="">Etusivu</a>
-      <a href="palvelut.html" class="">Palvelut</a>
+      <a href="index.html">Etusivu</a>
+      <a href="palvelut.html">Palvelut</a>
       <a href="meista.html" class="active">Meistä</a>
-      <a href="yhteystiedot.html" class="">Yhteystiedot</a>
+      <a href="yhteystiedot.html">Yhteystiedot</a>
       <a class="btn" href="yhteystiedot.html">Ota yhteyttä</a>
     </nav>
   </div>
 </header>
 
-<main>
-  <section class="about-grid container">
+<main class="blue-page">
+  <section class="container blue-hero">
     <div>
       <div class="kicker">Meistä</div>
-      <h1>Rakennamme tiloja, joissa yritykset menestyvät.</h1>
-      <p class="lead">Teematilat Oy on toimitilarakentamiseen erikoistunut yritys. Rakennamme selkeitä, kestäviä ja arjessa toimivia tiloja yritysten tarpeisiin.</p>
-      <p>Meille tärkeintä on asiakkaan tarpeiden ymmärtäminen ja niiden muuttaminen toimivaksi kokonaisuudeksi. Hyvä lopputulos syntyy suunnittelusta, laadukkaasta toteutuksesta ja avoimesta yhteistyöstä.</p>
+      <h1>Rakennamme toimitiloja, joissa yritykset voivat kasvaa.</h1>
+      <p class="lead">
+        Teematilat Oy suunnittelee ja rakentaa laadukkaita, kestäviä ja käytännöllisiä toimitiloja yritysten tarpeisiin.
+      </p>
+      <p>
+        Meille tärkeintä on selkeä yhteistyö, huolellinen suunnittelu ja laadukas toteutus. Rakennamme tiloja, jotka tukevat asiakkaidemme arkea ja liiketoimintaa pitkälle tulevaisuuteen.
+      </p>
     </div>
-    <div class="photo-card"><img src="assets/halli-ulkokuva.png" alt="Teematilat Oy halli ulkoa"></div>
+
+    <div class="photo-card">
+      <img src="assets/halli-ulkokuva.png" alt="Teematilat Oy halli ulkoa">
+    </div>
   </section>
-  <section class="features">
-    <div class="container value-grid">
-      <div class="value"><h3>Asiakaslähtöisyys</h3><p>Kuuntelemme ja ymmärrämme tarpeesi.</p></div>
-      <div class="value"><h3>Laadukas työ</h3><p>Panostamme laatuun jokaisessa vaiheessa.</p></div>
-      <div class="value"><h3>Luotettavuus</h3><p>Pitäydymme sovitussa ja viemme asiat maaliin.</p></div>
-      <div class="value"><h3>Kestävä tulevaisuus</h3><p>Rakennamme järkevästi ja vastuullisesti.</p></div>
+
+  <section class="container blue-values">
+    <div class="blue-card">
+      <h3>Asiakaslähtöisyys</h3>
+      <p>Kuuntelemme asiakkaan tarpeet ja rakennamme ratkaisut niiden pohjalta.</p>
+    </div>
+
+    <div class="blue-card">
+      <h3>Laadukas työ</h3>
+      <p>Panostamme kestävään lopputulokseen ja viimeisteltyyn toteutukseen.</p>
+    </div>
+
+    <div class="blue-card">
+      <h3>Luotettavuus</h3>
+      <p>Pidämme kiinni sovitusta ja viemme projektit määrätietoisesti maaliin.</p>
+    </div>
+
+    <div class="blue-card">
+      <h3>Kestävä tulevaisuus</h3>
+      <p>Rakennamme järkevästi, pitkäikäisesti ja vastuullisesti.</p>
     </div>
   </section>
 </main>
@@ -47,16 +71,19 @@
 <footer class="footer">
   <div class="container footer-inner">
     <a class="logo-wrap" href="index.html">
-<img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
-</a> 
-    <small>© 2024 Teematilat Oy. Kaikki oikeudet pidätetään.</small>
+      <img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
+    </a>
+    <small>© 2026 Teematilat Oy. Kaikki oikeudet pidätetään.</small>
   </div>
 </footer>
+
 <script>
 document.addEventListener('click', function(e){
   const menu = document.querySelector('.menu');
   const toggle = document.querySelector('.mobile-toggle');
-  if(menu && toggle && !menu.contains(e.target) && !toggle.contains(e.target)) menu.classList.remove('open');
+  if(menu && toggle && !menu.contains(e.target) && !toggle.contains(e.target)) {
+    menu.classList.remove('open');
+  }
 });
 </script>
 </body>
