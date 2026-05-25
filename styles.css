@@ -72,8 +72,11 @@ h1{font-size:clamp(42px,6vw,68px);line-height:1.02;letter-spacing:-.065em;color:
 .cta{background:linear-gradient(135deg,#06213f,#0a315d);color:white;padding:64px 0;text-align:center;position:relative;overflow:hidden}
 .cta h2{font-size:clamp(30px,4vw,44px);line-height:1.12;margin-bottom:24px;letter-spacing:-.04em}
 .cta .eyebrow{color:white}
-.footer{background:var(--navy);color:white;padding:28px 0}
-.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
+.footer{
+  background:#ffffff;
+  color:var(--navy);
+  padding:28px 0;
+}.footer-inner{display:flex;justify-content:space-between;align-items:center;gap:22px;flex-wrap:wrap}
 .footer .logo-wrap{color:white;font-size:20px}
 .footer small{opacity:.8}
 
