@@ -10,46 +10,51 @@
 <body>
 <header class="header">
   <div class="container nav">
-    <a class="logo-wrap" href="index.html"><svg class="brand-logo" viewBox="0 0 360 92" role="img" aria-label="Teematilat Oy" xmlns="http://www.w3.org/2000/svg">
+    <a class="logo-wrap" href="index.html"><svg viewBox="0 0 360 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Teematilat Oy">
   <defs>
-    <linearGradient id="silverA" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#d8dee7"/>
-      <stop offset="52%" stop-color="#9aa6b6"/>
-      <stop offset="100%" stop-color="#707b8a"/>
+    <linearGradient id="grey" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d7dde5"/>
+      <stop offset="100%" stop-color="#8994a3"/>
     </linearGradient>
-    <linearGradient id="navyA" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b2e63"/>
+
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2f66"/>
       <stop offset="100%" stop-color="#061f3d"/>
     </linearGradient>
-    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
-      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061f3d" flood-opacity=".12"/>
-    </filter>
   </defs>
 
-  <g transform="translate(8 9)" filter="url(#softShadow)">
-    <!-- top open roof / upper right in dark navy -->
-    <polygon points="38,0 80,24 66,32 38,16 10,32 0,24" fill="url(#silverA)"/>
-    <polygon points="38,0 80,24 66,32 38,16" fill="url(#navyA)"/>
+  <g transform="translate(22 8)">
 
-    <!-- left leg -->
-    <polygon points="0,30 28,46 28,76 0,60" fill="url(#silverA)"/>
-    <polygon points="12,47 22,53 22,73 12,67" fill="#ffffff"/>
+    <!-- top closer to bottom -->
+    <polygon points="36,0 72,20 64,24 36,12 8,24 0,20"
+             fill="url(#blue)" />
 
-    <!-- center leg -->
-    <polygon points="28,46 40,39 40,84 28,76" fill="#8f9bac"/>
-    <polygon points="40,39 52,46 52,76 40,84" fill="url(#navyA)"/>
+    <!-- left -->
+    <polygon points="0,24 36,44 36,82 0,62"
+             fill="url(#grey)" />
 
-    <!-- right leg -->
-    <polygon points="52,46 80,30 80,60 52,76" fill="url(#navyA)"/>
-    <polygon points="62,53 72,47 72,67 62,73" fill="#ffffff"/>
+    <!-- right -->
+    <polygon points="36,44 72,24 72,62 36,82"
+             fill="url(#blue)" />
+
+    <!-- left white cut -->
+    <polygon points="10,52 20,57 20,75 10,70"
+             fill="#ffffff" />
+
+    <!-- right white cut -->
+    <polygon points="52,57 62,52 62,70 52,75"
+             fill="#ffffff" />
+
   </g>
 
-  <text x="108" y="57"
+  <text x="108" y="66"
         font-family="Arial, Helvetica, sans-serif"
-        font-size="35"
+        font-size="34"
         font-weight="900"
-        letter-spacing="-1.5"
-        fill="#061f3d">Teematilat Oy</text>
+        letter-spacing="-1.4"
+        fill="#061f3d">
+    Teematilat Oy
+  </text>
 </svg></a>
     <button class="mobile-toggle" aria-label="Avaa valikko" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
     <nav class="menu">
