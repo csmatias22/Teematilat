@@ -11,13 +11,13 @@
 <header class="header">
   <div class="container nav">
     <a class="logo-wrap" href="index.html">
-<img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
-</a> 
+      <img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
+    </a>
     <button class="mobile-toggle" aria-label="Avaa valikko" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
     <nav class="menu">
-      <a href="index.html" class="">Etusivu</a>
-      <a href="palvelut.html" class="">Palvelut</a>
-      <a href="meista.html" class="">Meistä</a>
+      <a href="index.html">Etusivu</a>
+      <a href="palvelut.html">Palvelut</a>
+      <a href="meista.html">Meistä</a>
       <a href="yhteystiedot.html" class="active">Yhteystiedot</a>
       <a class="btn" href="yhteystiedot.html">Ota yhteyttä</a>
     </nav>
@@ -29,9 +29,10 @@
     <div class="container">
       <div class="eyebrow">Yhteystiedot</div>
       <h1>Ota yhteyttä – rakennetaan yhdessä.</h1>
-      <p>Kerro meille yrityksesi tarpeista, niin suunnittelemme ja rakennamme juuri teidän käyttöönne soveltuvat toimitilat</p>
+      <p>Kerro meille yrityksesi tarpeista, niin suunnittelemme ja rakennamme juuri teidän käyttöönne soveltuvat toimitilat.</p>
     </div>
   </section>
+
   <section class="container contact-grid">
     <div>
       <h2 class="section-title">Ota yhteyttä</h2>
@@ -40,9 +41,9 @@
         <li><strong>Sähköposti:</strong> info@teematilat.fi</li>
         <li><strong>Puhelin:</strong> 044 970 2033</li>
         <li><strong>Osoite:</strong> Kottaraisentie 8, 40270 Palokka</li>
-
       </ul>
     </div>
+
     <form class="form" action="mailto:info@teematilat.fi" method="post" enctype="text/plain">
       <input name="nimi" placeholder="Nimi" required>
       <input name="sahkoposti" type="email" placeholder="Sähköposti" required>
@@ -50,42 +51,40 @@
       <textarea name="viesti" placeholder="Viesti" required></textarea>
       <button class="btn" type="submit">Lähetä viesti</button>
     </form>
+  </section>
 
-  <div class="container showcase-grid">
-    
-    <div class="showcase-content">
-      <div class="eyebrow light">Modernit toimitilat</div>
-      <h2>Rakennamme yrityksellesi toimivat ja näyttävät tilat</h2>
-      
-      <p>
-        Teematilat Oy suunnittelee ja toteuttaa laadukkaita toimitiloja,
-        varastoja ja halliratkaisuja yritysten tarpeisiin.
-      </p>
+  <section class="showcase-section">
+    <div class="container showcase-grid">
+      <div class="showcase-content">
+        <div class="eyebrow light">Modernit toimitilat</div>
+        <h2>Rakennamme yrityksellesi toimivat ja näyttävät tilat</h2>
 
-      <p>
-        Panostamme kestävään rakentamiseen, toimivuuteen sekä moderniin ulkoasuun.
-      </p>
+        <p>
+          Teematilat Oy suunnittelee ja toteuttaa laadukkaita toimitiloja,
+          varastoja ja halliratkaisuja yritysten tarpeisiin.
+        </p>
 
-     
+        <p>
+          Panostamme kestävään rakentamiseen, toimivuuteen sekä moderniin ulkoasuun.
+        </p>
+      </div>
+
+      <div class="showcase-image">
+        <img src="assets/halli-ulkokuva-ai.png" alt="Moderni toimitilahalli">
+      </div>
     </div>
-
-    <div class="showcase-image">
-      <img src="assets/halli-ulkokuva-ai.png" alt="Moderni toimitilahalli">
-    </div>
-
-  </div>
-</section>
-  
+  </section>
 </main>
 
 <footer class="footer">
   <div class="container footer-inner">
     <a class="logo-wrap" href="index.html">
-<img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
-</a> 
+      <img src="assets/logo.svg" alt="Teematilat Oy logo" class="logo">
+    </a>
     <small>© 2026 Teematilat Oy. Kaikki oikeudet pidätetään.</small>
   </div>
 </footer>
+
 <script>
 document.addEventListener('click', function(e){
   const menu = document.querySelector('.menu');
