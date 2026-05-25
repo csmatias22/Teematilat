@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yhteystiedot | Teematilat Oy</title>
+  <meta name="description" content="Teematilat Oy rakentaa laadukkaita ja toimivia toimitiloja yrityksille.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo-wrap" href="index.html"><svg class="brand-logo" viewBox="0 0 360 92" role="img" aria-label="Teematilat Oy" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="silverA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8dee7"/>
+      <stop offset="52%" stop-color="#9aa6b6"/>
+      <stop offset="100%" stop-color="#707b8a"/>
+    </linearGradient>
+    <linearGradient id="navyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2e63"/>
+      <stop offset="100%" stop-color="#061f3d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061f3d" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(8 9)" filter="url(#softShadow)">
+    <!-- top open roof / upper right in dark navy -->
+    <polygon points="38,0 80,24 66,32 38,16 10,32 0,24" fill="url(#silverA)"/>
+    <polygon points="38,0 80,24 66,32 38,16" fill="url(#navyA)"/>
+
+    <!-- left leg -->
+    <polygon points="0,30 28,46 28,76 0,60" fill="url(#silverA)"/>
+    <polygon points="12,47 22,53 22,73 12,67" fill="#ffffff"/>
+
+    <!-- center leg -->
+    <polygon points="28,46 40,39 40,84 28,76" fill="#8f9bac"/>
+    <polygon points="40,39 52,46 52,76 40,84" fill="url(#navyA)"/>
+
+    <!-- right leg -->
+    <polygon points="52,46 80,30 80,60 52,76" fill="url(#navyA)"/>
+    <polygon points="62,53 72,47 72,67 62,73" fill="#ffffff"/>
+  </g>
+
+  <text x="108" y="57"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="35"
+        font-weight="900"
+        letter-spacing="-1.5"
+        fill="#061f3d">Teematilat Oy</text>
+</svg></a>
+    <button class="mobile-toggle" aria-label="Avaa valikko" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+    <nav class="menu">
+      <a href="index.html" class="">Etusivu</a>
+      <a href="palvelut.html" class="">Palvelut</a>
+      <a href="meista.html" class="">Meistä</a>
+      <a href="yhteystiedot.html" class="active">Yhteystiedot</a>
+      <a class="btn" href="yhteystiedot.html">Ota yhteyttä</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Yhteystiedot</div>
+      <h1>Ota yhteyttä – rakennetaan yhdessä.</h1>
+      <p>Kerro meille yrityksesi tarpeista, niin suunnittelemme ja rakennamme ratkaisun juuri teidän käyttöönne.</p>
+    </div>
+  </section>
+  <section class="container contact-grid">
+    <div>
+      <h2 class="section-title">Ota yhteyttä</h2>
+      <ul class="contact-list">
+        <li><strong>Yritys:</strong> Teematilat Oy</li>
+        <li><strong>Sähköposti:</strong> info@teematilat.fi</li>
+        <li><strong>Puhelin:</strong> 040 123 4567</li>
+        <li><strong>Osoite:</strong> Rakennustie 1, 12345 Kaupunki</li>
+      </ul>
+      <div class="notice">Muokkaa tähän oikeat yhteystiedot ennen julkaisua.</div>
+    </div>
+    <form class="form" action="mailto:info@teematilat.fi" method="post" enctype="text/plain">
+      <input name="nimi" placeholder="Nimi" required>
+      <input name="sahkoposti" type="email" placeholder="Sähköposti" required>
+      <input name="puhelin" placeholder="Puhelin">
+      <textarea name="viesti" placeholder="Viesti" required></textarea>
+      <button class="btn" type="submit">Lähetä viesti</button>
+    </form>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="logo-wrap" href="index.html"><svg class="brand-logo" viewBox="0 0 360 92" role="img" aria-label="Teematilat Oy" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="silverA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8dee7"/>
+      <stop offset="52%" stop-color="#9aa6b6"/>
+      <stop offset="100%" stop-color="#707b8a"/>
+    </linearGradient>
+    <linearGradient id="navyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2e63"/>
+      <stop offset="100%" stop-color="#061f3d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061f3d" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(8 9)" filter="url(#softShadow)">
+    <!-- top open roof / upper right in dark navy -->
+    <polygon points="38,0 80,24 66,32 38,16 10,32 0,24" fill="url(#silverA)"/>
+    <polygon points="38,0 80,24 66,32 38,16" fill="url(#navyA)"/>
+
+    <!-- left leg -->
+    <polygon points="0,30 28,46 28,76 0,60" fill="url(#silverA)"/>
+    <polygon points="12,47 22,53 22,73 12,67" fill="#ffffff"/>
+
+    <!-- center leg -->
+    <polygon points="28,46 40,39 40,84 28,76" fill="#8f9bac"/>
+    <polygon points="40,39 52,46 52,76 40,84" fill="url(#navyA)"/>
+
+    <!-- right leg -->
+    <polygon points="52,46 80,30 80,60 52,76" fill="url(#navyA)"/>
+    <polygon points="62,53 72,47 72,67 62,73" fill="#ffffff"/>
+  </g>
+
+  <text x="108" y="57"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="35"
+        font-weight="900"
+        letter-spacing="-1.5"
+        fill="#061f3d">Teematilat Oy</text>
+</svg></a>
+    <small>© 2024 Teematilat Oy. Kaikki oikeudet pidätetään.</small>
+  </div>
+</footer>
+<script>
+document.addEventListener('click', function(e){
+  const menu = document.querySelector('.menu');
+  const toggle = document.querySelector('.mobile-toggle');
+  if(menu && toggle && !menu.contains(e.target) && !toggle.contains(e.target)) menu.classList.remove('open');
+});
+</script>
+</body>
+</html>

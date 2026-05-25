@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Etusivu | Teematilat Oy</title>
+  <meta name="description" content="Teematilat Oy rakentaa laadukkaita ja toimivia toimitiloja yrityksille.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo-wrap" href="index.html"><svg class="brand-logo" viewBox="0 0 360 92" role="img" aria-label="Teematilat Oy" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="silverA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8dee7"/>
+      <stop offset="52%" stop-color="#9aa6b6"/>
+      <stop offset="100%" stop-color="#707b8a"/>
+    </linearGradient>
+    <linearGradient id="navyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2e63"/>
+      <stop offset="100%" stop-color="#061f3d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061f3d" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(8 9)" filter="url(#softShadow)">
+    <!-- top open roof / upper right in dark navy -->
+    <polygon points="38,0 80,24 66,32 38,16 10,32 0,24" fill="url(#silverA)"/>
+    <polygon points="38,0 80,24 66,32 38,16" fill="url(#navyA)"/>
+
+    <!-- left leg -->
+    <polygon points="0,30 28,46 28,76 0,60" fill="url(#silverA)"/>
+    <polygon points="12,47 22,53 22,73 12,67" fill="#ffffff"/>
+
+    <!-- center leg -->
+    <polygon points="28,46 40,39 40,84 28,76" fill="#8f9bac"/>
+    <polygon points="40,39 52,46 52,76 40,84" fill="url(#navyA)"/>
+
+    <!-- right leg -->
+    <polygon points="52,46 80,30 80,60 52,76" fill="url(#navyA)"/>
+    <polygon points="62,53 72,47 72,67 62,73" fill="#ffffff"/>
+  </g>
+
+  <text x="108" y="57"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="35"
+        font-weight="900"
+        letter-spacing="-1.5"
+        fill="#061f3d">Teematilat Oy</text>
+</svg></a>
+    <button class="mobile-toggle" aria-label="Avaa valikko" onclick="document.querySelector('.menu').classList.toggle('open')">☰</button>
+    <nav class="menu">
+      <a href="index.html" class="active">Etusivu</a>
+      <a href="palvelut.html" class="">Palvelut</a>
+      <a href="meista.html" class="">Meistä</a>
+      <a href="yhteystiedot.html" class="">Yhteystiedot</a>
+      <a class="btn" href="yhteystiedot.html">Ota yhteyttä</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-content">
+      <div class="eyebrow">Toimitilarakentamisen ammattilainen</div>
+      <h1>Toimitiloja, jotka tukevat liiketoimintaasi.</h1>
+      <p class="lead">Suunnittelemme ja rakennamme laadukkaita, toimivia ja kestäviä toimitiloja yrityksille – yhdessä asiakkaidemme kanssa.</p>
+      <a class="btn" href="palvelut.html">Tutustu palveluihimme →</a>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container feature-grid">
+      <div class="feature"><div class="icon">♙</div><h3>Asiakaslähtöisyys</h3><p>Kuuntelemme tarpeesi ja rakennamme ratkaisut, jotka tukevat toimintaasi.</p></div>
+      <div class="feature"><div class="icon">⌂</div><h3>Kokemus ja laatu</h3><p>Vankka kokemus ja korkea laatu varmistavat onnistuneen lopputuloksen.</p></div>
+      <div class="feature"><div class="icon">♧</div><h3>Kestävä rakentaminen</h3><p>Huomioimme ympäristön ja tulevaisuuden jokaisessa projektissamme.</p></div>
+      <div class="feature"><div class="icon">◇</div><h3>Luotettava kumppani</h3><p>Pitäydymme sovitussa ja viemme projektit maaliin ajallaan.</p></div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="container center">
+      <div class="eyebrow">Näin toimimme</div>
+      <h2 class="section-title">Selkeä prosessi – onnistunut lopputulos</h2>
+      <div class="process-grid">
+        <div class="step"><div class="step-number">1</div><div class="step-icon">▱</div><h3>Suunnittelu</h3><p>Kartoitamme tarpeesi ja suunnittelemme toimitilan, joka tukee liiketoimintaasi.</p></div>
+        <div class="step"><div class="step-number">2</div><div class="step-icon">▤</div><h3>Toteutus</h3><p>Rakennamme sovitun mukaisesti korkealla laadulla ja aikataulussa.</p></div>
+        <div class="step"><div class="step-number">3</div><div class="step-icon">✓</div><h3>Luovutus</h3><p>Luovutamme valmiin, käyttöösi soveltuvan tilan sovitussa aikataulussa.</p></div>
+        <div class="step"><div class="step-number">4</div><div class="step-icon">⌂</div><h3>Jatkamme mukana</h3><p>Olemme tukenasi myös projektin jälkeen, kun tarvitset meitä.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="split">
+    <div class="container split-grid">
+      <div>
+        <div class="kicker">Miksi valita Teematilat Oy?</div>
+        <h2 class="section-title">Rakennamme enemmän kuin tiloja – rakennamme mahdollisuuksia.</h2>
+        <p>Meille jokainen projekti on tärkeä. Yhdistämme toiminnallisuuden, laadun ja kestävyyden luodaksemme tiloja, joissa voi menestyä.</p>
+        <ul class="checks">
+          <li>Räätälöidyt ratkaisut yrityksesi tarpeisiin</li>
+          <li>Korkea laatu ja viimeistely</li>
+          <li>Aikatauluista kiinni pitäminen</li>
+          <li>Avoin ja reilu yhteistyö</li>
+          <li>Kestävä ja vastuullinen rakentaminen</li>
+        </ul>
+      </div>
+      <div class="photo-card"><img src="assets/halli-sisakuva.png" alt="Valmis hallin sisätila"></div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <div class="container">
+      <div class="eyebrow">Valmiina aloittamaan?</div>
+      <h2>Ota yhteyttä ja keskustellaan projektistasi.</h2>
+      <a class="btn" href="yhteystiedot.html">Ota yhteyttä →</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <a class="logo-wrap" href="index.html"><svg class="brand-logo" viewBox="0 0 360 92" role="img" aria-label="Teematilat Oy" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="silverA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#d8dee7"/>
+      <stop offset="52%" stop-color="#9aa6b6"/>
+      <stop offset="100%" stop-color="#707b8a"/>
+    </linearGradient>
+    <linearGradient id="navyA" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2e63"/>
+      <stop offset="100%" stop-color="#061f3d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#061f3d" flood-opacity=".12"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(8 9)" filter="url(#softShadow)">
+    <!-- top open roof / upper right in dark navy -->
+    <polygon points="38,0 80,24 66,32 38,16 10,32 0,24" fill="url(#silverA)"/>
+    <polygon points="38,0 80,24 66,32 38,16" fill="url(#navyA)"/>
+
+    <!-- left leg -->
+    <polygon points="0,30 28,46 28,76 0,60" fill="url(#silverA)"/>
+    <polygon points="12,47 22,53 22,73 12,67" fill="#ffffff"/>
+
+    <!-- center leg -->
+    <polygon points="28,46 40,39 40,84 28,76" fill="#8f9bac"/>
+    <polygon points="40,39 52,46 52,76 40,84" fill="url(#navyA)"/>
+
+    <!-- right leg -->
+    <polygon points="52,46 80,30 80,60 52,76" fill="url(#navyA)"/>
+    <polygon points="62,53 72,47 72,67 62,73" fill="#ffffff"/>
+  </g>
+
+  <text x="108" y="57"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="35"
+        font-weight="900"
+        letter-spacing="-1.5"
+        fill="#061f3d">Teematilat Oy</text>
+</svg></a>
+    <small>© 2024 Teematilat Oy. Kaikki oikeudet pidätetään.</small>
+  </div>
+</footer>
+<script>
+document.addEventListener('click', function(e){
+  const menu = document.querySelector('.menu');
+  const toggle = document.querySelector('.mobile-toggle');
+  if(menu && toggle && !menu.contains(e.target) && !toggle.contains(e.target)) menu.classList.remove('open');
+});
+</script>
+</body>
+</html>
